@@ -1,6 +1,11 @@
-/JavaRushHomeWork/*
-/JavaRushIdeaPlugin/*
+JavaRushHomeWork
+JavaRushIdeaPlugin
 src
-.idea
+.idea/
+out/
 .git
+*.xml
 *.iml
+*.ipr
+*.iws
+
