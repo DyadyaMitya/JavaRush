@@ -1,3 +1,6 @@
-JavaRushHomeWork
-JavaRushIdeaPlugin
-
+/JavaRushHomeWork/*
+/JavaRushIdeaPlugin/*
+src
+.idea
+.git
+*.iml
