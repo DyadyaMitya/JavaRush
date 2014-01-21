@@ -4,10 +4,8 @@ package com.javarush.test.level03.lesson04.task02;
 Вывести на экран свое имя 5 строк по 10 раз (через пробел).
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    public static void main(String[] args) {
         String name = new String("Марфа");
         String nameLine = new String();
         int i = 0;
@@ -20,6 +18,5 @@ public class Solution
             System.out.println(nameLine);
             n++;
         }
-        
     }
 }
