@@ -9,8 +9,7 @@ package com.javarush.test.level03.lesson06.task01;
 */
 import java.util.Arrays;
 
-public class Solution
-{
+public class Solution {
     static void showPermutations(String[] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length - 1; j++) {
