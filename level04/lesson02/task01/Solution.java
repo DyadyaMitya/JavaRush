@@ -7,13 +7,11 @@ package com.javarush.test.level04.lesson02.task01;
 public class Cat {
     private String name;
     
-    public String main()
-    {
+    public String main() {
         return name;
     }
     
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 }
