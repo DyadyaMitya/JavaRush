@@ -5,10 +5,8 @@ package com.javarush.test.level03.lesson04.task04;
 Подсказка: будет три миллиона с хвостиком.
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    public static void main(String[] args) {
         int pr = 1;
         int i = 1;
 
@@ -16,6 +14,5 @@ public class Solution
             pr = pr * i;
         }
         System.out.print(pr);
-
     }
 }
