@@ -5,14 +5,12 @@ package com.javarush.test.level02.lesson08.task06;
 Слова должны быть разделены пробелом и не должны сливаться в одно.
 */
 
-public class Solution
-{
+public class Solution {
     public static void main(String[] args) {
         print3("Строка");
     }
 
-    public static void print3(String s)
-    {
+    public static void print3(String s) {
         System.out.println(s + " " + s + " " + s);
 
     }
