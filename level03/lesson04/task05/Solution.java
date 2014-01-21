@@ -15,10 +15,8 @@ package com.javarush.test.level03.lesson04.task05;
 ...
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    public static void main(String[] args) {
         int sum = 0;
         int i = 1;
 
@@ -26,6 +24,5 @@ public class Solution
             sum = sum + i;
             System.out.println(sum);
         }
-
     }
 }
