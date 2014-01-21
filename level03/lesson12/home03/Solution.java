@@ -9,10 +9,8 @@ import java.io.InputStreamReader;
 Я буду зарабатывать $50 в час
 */
 
-public class Solution
-{
-    public static void main(String[] args) throws Exception
-    {
+public class Solution {
+    public static void main(String[] args) throws Exception {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String number = bufferedReader.readLine();
         System.out.print("Я буду зарабатывать $" + number + " в час");
