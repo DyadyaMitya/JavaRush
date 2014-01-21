@@ -5,15 +5,12 @@ import java.io.File;
 Выведи на экран текст: полное имя файла java.exe из установленного пакета java
 */
 
-public class Solution
-{
-    public static void main(String[] args)
-    {
+public class Solution {
+    public static void main(String[] args) {
         String javaHome = System.getProperty("java.home");
         File f = new File(javaHome);
         f = new File(f, "bin");
         f = new File(f, "java.exe");
         System.out.println(f);
-
     }
 }
